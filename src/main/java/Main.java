@@ -16,10 +16,4 @@ public class Main {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        List<Integer> data = List.of(1, 3, 4, 5, 1, 5, 4, 4);
-        Map<Integer, Integer> elementCounts = countElements(data);
-        System.out.println(elementCounts);
-    }
 }
